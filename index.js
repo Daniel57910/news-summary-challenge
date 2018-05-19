@@ -1,5 +1,3 @@
-const url = "http://news-summary-api.herokuapp.com/guardian?apiRequestUrl=http://content.guardianapis.com";
-
 window.onload = function () {
   console.log("HELLO");
   testAPI(url);
