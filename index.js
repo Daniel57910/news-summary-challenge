@@ -1,7 +1,8 @@
 window.onload = function () {
   console.log("HELLO");
-  testAPI(url);
-  
+  apiData = window.apiData;
+  console.log(apiData);
+
 };
 
 testAPI = function() {
