@@ -5,7 +5,7 @@ const url = "http://news-summary-api.herokuapp.com/guardian?apiRequestUrl=http:/
 apiKey = function() {
   this.apiBase = "http://news-summary-api.herokuapp.com/guardian?apiRequestUrl=http://content.guardianapis.com/";
   this.key = "&api-key=39b865d4-e26b-4c23-8d8e-8e86db537acf";
-  this.editorPicks = "world/?show-editor-picks=true";
+  this.editorPicks = "?show-editor-picks=true";
 };
 
 apiKey.prototype.builtKey = function() {

@@ -1,10 +1,17 @@
 window.onload = function () {
   console.log("HELLO");
   apiData = window.apiData;
-  console.log(apiData);
-
+  getHeadlines(apiData.builtKey());
 };
 
+function getHeadlines(url) {
+  fetch(url)
+  .then((resp) => resp.json()).then (function (data) {
+    console.log(data);
+  });
+}
+  
+/*
 testAPI = function() {
   fetch(url)
     .then((resp) => resp.json())
@@ -14,4 +21,4 @@ testAPI = function() {
       id.innerText = input;
     });
 };
-
+*/
