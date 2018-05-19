@@ -12,7 +12,7 @@
     };
   }
 
-  exports.evaluation = Assert;
+  exports.evaluation = new Assert();
   //console.log(exports.testing.isTrue(5 === 5));
 
 })(this);
