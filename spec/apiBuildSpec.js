@@ -10,8 +10,3 @@ apiKey = apiKey.apiData;
   testLibrary.evaluation.isTrue(apiKey.date === "2018-05-21");
 }(this));
 
-(function buildAPIForHeadlines() {
-  testLibrary.evaluation.isTrue(
-    apiKey.builtKey() === (apiKey.apiBase+ apiKey.editorPicks + apiKey.key)
-  );
-})(this);
